@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/png" href="images/icono.png">
+	<title>The Scoop Ice Cream</title>
+	<!-- <fonts> -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div id=main>
+		<header id="header">
+			<div id="header-top">
+				<img src="images/icecream.svg" alt="company logo" id="header-img">
+				<h1 id="hero">The scoop, Ice Creams. Tasty!</h1>
+			</div>
+
+			<nav id="nav-bar">
+				<ul id="nav-bar-ul">
+					<li><a href="#features" class="nav-link">Features</a></li>
+					<li><a href="#ice-creams" class="nav-link">Ice Creams</a></li>
+					<li><a href="#prices" class="nav-link">Pricing</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+
+		<section id="features">
+			<div class="grid">
+				<div class="icon"><img src="https://img.icons8.com/doodle/48/000000/ice-cream-cone--v1.png"/></div>
+				<div class="content">
+					<h2>New Flavors!</h2>
+					<p>Try our new collection of fruit ice creams this summer</p>
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="icon"><img src="https://img.icons8.com/nolan/64/scooter.png"/></div>
+				<div class="content">
+					<h2>We Deliver</h2>
+					<p>Now we have free delivery in adjacent areas</p>
+				</div>
+			</div>
+
+			<div class="grid">
+				<div class="icon"><img src="https://img.icons8.com/officel/50/000000/employee-card.png"></div>
+				<div class="content">
+					<h2>Want to work with us?</h2>
+					<p>We are looking for people to join our team. <a href="#email">Contact Us!</a></p>
+				</div>
+			</div>
+
+			<form action="https://www.freecodecamp.com/email-submit" id="form">
+				<input type="text" name="name" placeholder="Fullname" class="form-input" required>
+				<input type="number" name="number" placeholder="Age" class="form-input" required>
+				<input type="email" name="name" placeholder="Contact email" id="email" class="form-input" required>
+				<input type="submit" name="submit" value="Submit Your data" id="submit">
+			</form>
+		</section>
+
+		<section id="ice-creams">
+			<div id="video-container">
+				<iframe height="315" src="https://www.youtube.com/embed/134HAHM2VOA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="video"></iframe>
+			</div>
+		</section>
+
+		<section id="prices">
+			<div class="product">
+				<div class="product-header">Vanilla and chocolate</div>
+				<div class="product-img">
+					<img src="https://image.freepik.com/foto-gratis/helado-vainilla-chocolate-conos_23-2148177271.jpg" alt="product image">
+				</div>
+				<div class="product-info">
+					<h3>$3</h3>
+					<p>Try our delicius vanilla and chocolate ice cream</p>
+				</div>
+
+				<input type="submit" name="" value="Buy this!" class="btn-buy">	
+			</div>
+
+			<div class="product">
+				<div class="product-header">Blackberry</div>
+				<div class="product-img">
+					<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6888602.jpg" alt="product image">
+				</div>
+				<div class="product-info">
+					<h3>$5</h3>
+					<p>This is our new addition and adictive too!</p>
+				</div>	
+				<input type="submit" name="" value="Buy this!" class="btn-buy">
+			</div>
+
+			<div class="product">
+				<div class="product-header">Lemon</div>
+				<div class="product-img">
+					<img src="https://www.modernhoney.com/wp-content/uploads/2016/06/DSC_0091ed6.jpg" alt="product image">
+				</div>
+				<div class="product-info">
+					<h3>$2</h3>
+					<p>A very refreshing ice cream for this summer!</p>
+				</div>	
+				<input type="submit" name="" value="Buy this!" class="btn-buy">
+			</div>
+		</section>
+
+		<footer id="footer">
+			<span>&copy The Scoop, Ice cream</span>
+		</footer>
+	</div>
+</body>
+</html>
